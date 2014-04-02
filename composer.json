@@ -1,0 +1,14 @@
+{
+    "name": "sirian/open-exchange-rates-bundle",
+    "type": "library",
+    "description": "symfony2 and openexchangerates.org integration",
+    "keywords": [],
+    "autoload": {
+        "psr-0": { "Sirian\\OpenExchangeRatesBundle\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/symfony": ">=2.3.0",
+        "sirian/open-exchange-rates": "~1.0"
+    }
+}
