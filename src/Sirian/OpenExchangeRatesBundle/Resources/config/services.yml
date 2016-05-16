@@ -1,8 +1,8 @@
 services:
     open_exchange_rates:
         class: Sirian\OpenExchangeRates\CachedApiClient
-        arguments: [@open_exchange_rates.cache]
+        arguments: ["@open_exchange_rates.cache"]
 
     open_exchange_rates.cache:
         class: Doctrine\Common\Cache\FilesystemCache
-        arguments: ['%kernel.cache_dir%/open-exchange-rates']
+        arguments: ["%kernel.cache_dir%/open-exchange-rates"]
